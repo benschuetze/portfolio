@@ -1,0 +1,10 @@
+<h1>My Skills</h1>
+<div class="skills-container">
+    <div *ngFor="let skill of skills; let i = index;" [attr.data-index]="i">
+        <section>
+            <img src="{{images[i]}}" alt="">
+        </section>
+
+        <p>{{skill}}</p>
+    </div>
+</div>

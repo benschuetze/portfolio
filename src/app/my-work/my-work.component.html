@@ -1,0 +1,26 @@
+<h1>My Work</h1>
+<div class="works-container">
+    <div class="categories">
+        <button (click)="showProjects('all')"
+            [ngStyle]="{'background-color': typesOfProjects.all ? '#FA2759' : 'black'} ">All</button>
+        <button (click)="showProjects('angular')"
+            [ngStyle]="{'background-color': typesOfProjects.angular ? '#FA2759' : 'black'} ">Angular</button>
+        <button (click)="showProjects('javascript')"
+            [ngStyle]="{'background-color': typesOfProjects.javascript ? '#FA2759' : 'black'} ">Javascript</button>
+    </div>
+    <div class="example-projects">
+        <section *ngFor="let p of filteredProjects, let i = index" [style.background-image]="'url(' + p.image + ')'">
+
+            <div class="show-on-hover">
+                <h2>{{p.title}}</h2>
+                <span class="description">{{p.description}}</span>
+                <div class="action-section">
+                    <button><span>Try Out</span><img src="../assets/img/arrow-right.png" alt=""></button>
+                    <button><span>Github</span> <img src="../assets/img/github-fill.png" alt=""></button>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+</div>

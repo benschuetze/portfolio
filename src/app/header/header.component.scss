@@ -1,0 +1,31 @@
+header {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 59px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    div {
+        display: flex;
+        min-width: 350px;
+        justify-content: space-between;
+        font-size: 1.25em;
+        letter-spacing: -0.4px;
+        
+        p {
+            font-weight: 300;
+            cursor: pointer;
+            padding: 6px;
+            border-radius: 2px;
+            transition: all 250ms ease-in-out;
+
+            &:hover {
+                color: #FA2759;
+            }
+        }
+    }
+}
