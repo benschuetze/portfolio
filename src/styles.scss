@@ -5,6 +5,9 @@ body {
     color: white;
     font-family: 'Inter', sans-serif;
     transition: All 200ms ease-in-out;
+    scroll-behavior: smooth;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(89,14,32,1) 100%, rgba(0,212,255,1) 100%);
 }
 
 h1 {

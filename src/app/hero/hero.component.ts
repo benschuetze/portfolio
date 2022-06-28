@@ -12,4 +12,13 @@ export class HeroComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  scroll() {
+    let pageHeight = window.innerHeight;
+    window.scrollBy({
+      top: pageHeight,
+      left: 0,
+      behavior: 'smooth'
+    });
+  }
+
 }
