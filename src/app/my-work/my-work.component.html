@@ -1,11 +1,11 @@
 <h1>My Work</h1>
 <div class="works-container">
     <div class="categories">
-        <button (click)="showProjects('all')"
+        <button data-aos="zoom-in" (click)="showProjects('all')"
             [ngStyle]="{'background-color': typesOfProjects.all ? '#FA2759' : 'black'} ">All</button>
-        <button (click)="showProjects('angular')"
+        <button data-aos="zoom-in" (click)="showProjects('angular')"
             [ngStyle]="{'background-color': typesOfProjects.angular ? '#FA2759' : 'black'} ">Angular</button>
-        <button (click)="showProjects('javascript')"
+        <button data-aos="zoom-in" (click)="showProjects('javascript')"
             [ngStyle]="{'background-color': typesOfProjects.javascript ? '#FA2759' : 'black'} ">Javascript</button>
     </div>
     <div class="example-projects">
