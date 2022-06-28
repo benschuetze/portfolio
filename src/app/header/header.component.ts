@@ -12,4 +12,13 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  scrollToPortfolio() {
+    let pageHeight = window.innerHeight;
+    window.scrollBy({
+      top: pageHeight*2,
+      left: 0,
+      behavior: 'smooth'
+    });
+  }
+
 }
