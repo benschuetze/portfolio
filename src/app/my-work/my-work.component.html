@@ -5,18 +5,24 @@
             [ngStyle]="{'background-color': typesOfProjects.all ? '#FA2759' : 'black'} ">All</button>
         <button data-aos="zoom-in" (click)="showProjects('angular')"
             [ngStyle]="{'background-color': typesOfProjects.angular ? '#FA2759' : 'black'} ">Angular</button>
-        <button data-aos="zoom-in" (click)="showProjects('javascript')"
+        <button (click)="showProjects('javascript')"
             [ngStyle]="{'background-color': typesOfProjects.javascript ? '#FA2759' : 'black'} ">Javascript</button>
     </div>
     <div class="example-projects">
-        <section *ngFor="let p of filteredProjects, let i = index" [style.background-image]="'url(' + p.image + ')'">
+        <section *ngFor="let p of filteredProjects, let i = index" [style.background-image]="'url(' + p.image + ')'"
+        data-aos="zoom-in">
 
             <div class="show-on-hover">
                 <h2>{{p.title}}</h2>
                 <span class="description">{{p.description}}</span>
                 <div class="action-section">
-                    <button><span>Try Out</span><img src="../assets/img/arrow-right.png" alt=""></button>
-                    <button><span>Github</span> <img src="../assets/img/github-fill.png" alt=""></button>
+
+                    <button type="submit"><span>Try Out</span><img src="../assets/img/arrow-right.png" alt=""></button>
+
+                    <form action="{{p.githubLink}}" target="_tab">
+                        <button type="submit"><span>Github</span> <img src="../assets/img/github-fill.png"
+                                alt=""></button>
+                    </form>
                 </div>
             </div>
 

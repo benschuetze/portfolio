@@ -14,28 +14,28 @@ export class MyWorkComponent implements OnInit {
       description: 'My personal Portfolio Site built with Angular',
       image: 'assets/img/portfolio.jpg',
       category: 'angular',
-      link: null
+      githubLink: 'https://github.com/benschuetze/portfolio'
     },
     {
       title: 'El Pollo Loco',
       description: 'Jump and Run made with Javascript (OOP)',
       image: 'assets/img/pollo-loco.jpg',
       category: 'javascript',
-      link: null
+      githubLink: 'https://github.com/benschuetze/elpolloloco'
     },
     {
       title: 'Pokedex',
       description: 'Restful API based Pokemon viewer',
       image: 'assets/img/pokedex.jpg',
       category: 'javascript',
-      link: null
+      githubLink: 'https://github.com/benschuetze/pokedex'
     },
     {
       title: 'Join',
       description: 'Kanban built with Javascript as a group project',
       image: 'assets/img/join.jpg',
       category: 'javascript',
-      link: null
+      githubLink: 'https://github.com/TobiasMatthies/Join'
     }
   ]; 
 
