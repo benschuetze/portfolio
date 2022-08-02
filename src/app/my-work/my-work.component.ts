@@ -40,6 +40,14 @@ export class MyWorkComponent implements OnInit {
       category: 'javascript',
       githubLink: 'https://github.com/TobiasMatthies/Join',
       projectLink: 'http://gruppe-208.developerakademie.net/Join2/pages/addATask.html'
+    },
+    {
+      title: 'KanBaneasy',
+      description: ' Simple Kanban built with Angular',
+      image: 'assets/img/join.jpg',
+      category: 'angular',
+      githubLink: 'https://github.com/benschuetze/Kanbaneasy',
+      projectLink: 'https://join-7cee9.web.app/'
     }
   ]; 
 

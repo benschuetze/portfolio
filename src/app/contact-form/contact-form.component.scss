@@ -1,0 +1,37 @@
+input, textarea {
+    background: none;
+    resize: none;
+    margin-bottom: 16px;
+}
+
+textarea {
+    height: 200px;
+    color: white;
+
+    &:focus {
+        box-shadow: none;
+        background: none;
+        color: white;
+    }
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid white;
+    border-radius: 0px;
+    transition: all 250ms ease-in-out;
+
+    &:focus {
+
+        box-shadow: none;
+        background: none;
+        color: white;
+    }
+}
+
+button {
+    width: fit-content !important;
+    margin: 0 auto !important;
+    align-self: center !important;
+    margin-bottom: 16px; 
+}

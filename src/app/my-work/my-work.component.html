@@ -19,11 +19,11 @@
                 <h2>{{p.title}}</h2>
                 <span class="description">{{p.description}}</span>
                 <div class="action-section">
-                    <form action="{{p.projectLink}}" target="_tab">
-                        <button type="submit"><span>Try Out</span><img src="../assets/img/arrow-right.png"
+                    <form ngNoForm  action="{{p.projectLink}}" target="_tab">
+                        <button  type="submit"><span>Try Out</span><img src="../assets/img/arrow-right.png"
                                 alt=""></button>
                     </form>
-                    <form action="{{p.githubLink}}" target="_tab">
+                    <form ngNoForm action="{{p.githubLink}}" target="_tab">
                         <button type="submit"><span>Github</span> <img src="../assets/img/github-fill.png"
                                 alt=""></button>
                     </form>

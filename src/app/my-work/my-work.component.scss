@@ -5,7 +5,6 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(89,14,32,1) 100%, rgb
 }
 
 .works-container {
-    height: 100vh;
     max-width: 800px;
     margin: 0 auto;
     padding-left: 8px;
@@ -75,7 +74,10 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(89,14,32,1) 100%, rgb
             }
 
             button {
+                all: initial;
+                font-family: 'Inter', sans-serif !important;
                 background-color: rgba(0, 0, 0, 0.6);
+                font-size: 14px;
                 color: white;
                 border: 1px solid #FA2759;
                 border-radius: 2px;
@@ -161,6 +163,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(89,14,32,1) 100%, rgb
     margin: 0 auto;
 
     button {
+        font-size: 15px;
         background-color: black;
         color: white;
         width: 100px;

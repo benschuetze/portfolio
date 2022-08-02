@@ -3,7 +3,7 @@ body {
     margin: 0;
     background-color: black;
     color: white !important;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif !important;
     transition: All 200ms ease-in-out;
     scroll-behavior: smooth;
     background: rgb(2,0,36);
@@ -25,4 +25,4 @@ button {
  
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: 'Inter', sans-serif !important;; }
