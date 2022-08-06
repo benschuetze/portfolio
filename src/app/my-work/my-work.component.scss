@@ -6,9 +6,11 @@
 
 .works-container {
     max-width: 1050px;
+    min-height: 100vh;
     margin: 0 auto;
     padding-left: 8px;
     padding-right: 8px;
+    border-bottom: 1px solid white;
 }
 
 .example-projects {

@@ -29,6 +29,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { EnrollmentService } from 'src/enrollment.service';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { EnrollmentService } from 'src/enrollment.service';
     SkillsComponent,
     MyWorkComponent,
     ContactFormComponent,
-    AboutMeComponent
+    AboutMeComponent,
+    FooterComponent
   ],
   imports: [
     HttpClientModule,

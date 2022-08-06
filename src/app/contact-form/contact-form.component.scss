@@ -1,3 +1,8 @@
+.wrapper {
+    height: calc(100vh - 100px);
+    border-bottom: 1px solid white;
+}
+
 input, textarea {
     background: none;
     resize: none;

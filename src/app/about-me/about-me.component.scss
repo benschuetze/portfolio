@@ -1,9 +1,14 @@
 .wrapper {
     height: 100vh;
+    border-bottom: 1px solid white;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .quote  {
     text-align: center;
+    font-size: 20px;
+    margin-bottom: 32px;
 }
 
 .journey-container {
