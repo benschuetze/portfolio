@@ -1,17 +1,17 @@
-
 .wrapper {
-    background: rgb(2,0,36) !important;
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(89,14,32,1) 100%, rgba(0,212,255,1) 100%) !important;
+    height: 100vh;
+    background: rgb(2, 0, 36) !important;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(89, 14, 32, 1) 100%, rgba(0, 212, 255, 1) 100%) !important;
 }
 
 .skills-container {
-    max-width: 800px;
+    max-width: 710px;
     margin: 0 auto;
     padding-left: 8px;
     padding-right: 8px;
     display: flex;
     justify-content: space-between;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
 
     div {
         color: black;
@@ -21,9 +21,16 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(89,14,32,1) 100%, rgb
         width: 200px;
         border-radius: 5px;
         display: grid;
-        justify-content: center;
-        align-content: center;
+        justify-content: center !important;
+        align-content: center !important;
         position: relative;
+        text-align: center;
+        margin-top: 40px;
+
+        p {
+            margin-top: 20px;
+        }
+
 
         section {
             position: absolute;
