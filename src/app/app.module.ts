@@ -30,6 +30,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { EnrollmentService } from 'src/enrollment.service';
 import { FooterComponent } from './footer/footer.component';
+import { DataProtectionComponent } from './data-protection/data-protection.component';
+import { ImprintComponent } from './imprint/imprint.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +43,9 @@ import { FooterComponent } from './footer/footer.component';
     MyWorkComponent,
     ContactFormComponent,
     AboutMeComponent,
-    FooterComponent
+    FooterComponent,
+    DataProtectionComponent,
+    ImprintComponent
   ],
   imports: [
     HttpClientModule,

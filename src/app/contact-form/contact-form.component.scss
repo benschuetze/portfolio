@@ -40,3 +40,20 @@ button {
     align-self: center !important;
     margin-bottom: 16px; 
 }
+
+.infotext {
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-bottom: 32px;
+
+    a {
+        text-decoration: none;
+        color: #2DFCD8;
+        transition: all 200ms ease;
+
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+}

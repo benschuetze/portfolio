@@ -7,6 +7,8 @@
       </div>
     </div>
   </section>
+  <p class="infotext">Get in touch via the form below, or by emailing <a href="mailto:schuetzebenjamin@gmail.com">schuetzebenjamin@gmail.com</a>.
+  </p>
 
   <div class="container">
     <div class="row">
@@ -14,12 +16,12 @@
         <form [formGroup]="FormData" (ngSubmit)="onSubmit(FormData.value)">
           <div class="form-group">
             <label for="Email">Email</label>
-            <input type="email" class="form-control" name="Email" aria-describedby="emailHelp" placeholder="Enter email"
+            <input type="email" class="form-control" name="Email" aria-describedby="emailHelp" placeholder="Enter your email"
               formControlName="Email">
           </div>
           <div class="form-group">
-            <label for="fullname">Full Name</label>
-            <input type="text" class="form-control" name="Fullname" placeholder="Full Name" formControlName="Fullname">
+            <label for="fullname">Name</label>
+            <input type="text" class="form-control" name="Fullname" placeholder=" Enter your name" formControlName="Fullname">
           </div>
           <div class="form-group">
             <label for="comment">Message</label>
