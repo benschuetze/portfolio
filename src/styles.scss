@@ -3,7 +3,7 @@ body {
     margin: 0;
     background-color: black;
     color: white !important;
-    font-family: 'Inter', sans-serif !important;
+    font-family: 'Montserrat', sans-serif !important;
     transition: All 200ms ease-in-out;
     scroll-behavior: smooth;
     background: rgb(2,0,36);
@@ -13,11 +13,13 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(89,14,32,1) 100%, rgb
 h1 {
     width: fit-content;
     margin: 0 auto;
-    margin-bottom: 70px;
+    // margin-bottom: 70px;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 
 button {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
 @import '~@fortawesome/fontawesome-free/scss/solid.scss';
 @import '~@fortawesome/fontawesome-free/scss/regular.scss';
@@ -25,4 +27,4 @@ button {
  
 
 html, body { height: 100%; }
-body { margin: 0; font-family: 'Inter', sans-serif !important;; }
+body { margin: 0; font-family: 'Montserrat', sans-serif !important; }

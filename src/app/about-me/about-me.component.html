@@ -1,18 +1,15 @@
-<section class="is-primary is-bold">
-    <div class="hero-body">
-        <div class="container">
-            <h1 class="title">About me</h1>
-        </div>
+<div class="wrapper">
+                <h1 class="title">About me</h1>
+
+    <div class="quote">
+        <p>"I love coding, sports and electronic music"</p>
     </div>
-</section>
-<div class="quote">
-    <p>"I love coding, sports and electronic music"</p>
-</div>
-<div class="journey-container">
-    <div *ngFor="let step of steps" class="step-container">
-        <div class="img-container">
-            <img src="{{step['image']}}" alt="">
+    <div class="journey-container">
+        <div *ngFor="let step of steps" class="step-container">
+            <div class="img-container">
+                <img src="{{step['image']}}" alt="">
+            </div>
+            <p class="text">{{step['text']}}</p>
         </div>
-        <p class="text">{{step['text']}}</p>
     </div>
 </div>
