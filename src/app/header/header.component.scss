@@ -30,6 +30,7 @@ header {
         justify-content: space-between;
         font-size: 1.25em;
         letter-spacing: -0.4px;
+        position: relative;
         
         p,a {
             margin-top: 16px;
@@ -45,4 +46,11 @@ header {
             }
         }
     }
+}
+
+.back {
+    position: absolute;
+    top: -32px;
+    right: 0;
+    align-self: flex-end !important;
 }

@@ -9,9 +9,13 @@ import { ViewportScroller } from '@angular/common';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor(private scroller: ViewportScroller, private router: Router) { }
+  constructor(private scroller: ViewportScroller, public router: Router) { }
 
   ngOnInit(): void {
+  }
+
+  route(route: string) {  
+    return this.router['url'].includes(route);
   }
 
   scroll(id) {
