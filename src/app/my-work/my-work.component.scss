@@ -186,3 +186,14 @@
 
 
 }
+
+@media (max-width: 450px) {
+    .categories {
+
+        button {
+            height: 50px;
+            width: 85px;
+            font-size: 13px;
+        }
+    }
+}

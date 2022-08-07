@@ -5,13 +5,18 @@ import { DataProtectionComponent } from './data-protection/data-protection.compo
 import { ImprintComponent } from './imprint/imprint.component';
 import { MyWorkComponent } from './my-work/my-work.component';
 import { SkillsComponent } from './skills/skills.component';
+import { HeroComponent } from './hero/hero.component';
+import { AboutMeComponent } from './about-me/about-me.component';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
+  { path: '', component: HomeComponent },
+  { path: 'skills', component: SkillsComponent },
+  { path: 'my-work', component: MyWorkComponent},
+  { path: 'about-me', component: AboutMeComponent},
+  { path: 'contact-form', component: ContactFormComponent },
   { path: 'imprint', component: ImprintComponent },
   { path: 'data-protection', component: DataProtectionComponent },
-  { path: 'skills', component: SkillsComponent },
-  { path: 'contact', component: ContactFormComponent },
-  { path: 'portfolio', component: MyWorkComponent}
 ];
 
 @NgModule({

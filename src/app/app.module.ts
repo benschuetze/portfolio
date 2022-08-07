@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { RouterModule } from '@angular/router';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -32,6 +33,7 @@ import { EnrollmentService } from 'src/enrollment.service';
 import { FooterComponent } from './footer/footer.component';
 import { DataProtectionComponent } from './data-protection/data-protection.component';
 import { ImprintComponent } from './imprint/imprint.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -45,9 +47,11 @@ import { ImprintComponent } from './imprint/imprint.component';
     AboutMeComponent,
     FooterComponent,
     DataProtectionComponent,
-    ImprintComponent
+    ImprintComponent,
+    HomeComponent
   ],
   imports: [
+    RouterModule,
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,

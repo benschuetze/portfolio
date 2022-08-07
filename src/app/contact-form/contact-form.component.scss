@@ -28,6 +28,7 @@ input {
     border-bottom: 1px solid white;
     border-radius: 0px;
     transition: all 250ms ease-in-out;
+    color: white;
 
     &:focus {
 
@@ -47,7 +48,7 @@ button {
 .infotext {
     width: fit-content;
     margin: 0 auto;
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 32px;
     padding-left: 8px;
     padding-right: 8px;
@@ -56,9 +57,14 @@ button {
         text-decoration: none;
         color: #2DFCD8;
         transition: all 200ms ease;
+        // word-break: break-all;
 
         &:hover {
             opacity: 0.8;
         }
     }
+}
+
+.submit {
+    background-color: #FA2759 !important;
 }
