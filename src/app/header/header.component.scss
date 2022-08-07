@@ -19,18 +19,21 @@ header {
     padding-top: 16px;
 
     img {
-        height: 32px;
+        height: 40px;
+        filter: brightness(0) invert(1);
     }
 
 
     div {
         display: flex;
-        min-width: 350px;
+        min-width: 200px;
         justify-content: space-between;
         font-size: 1.25em;
         letter-spacing: -0.4px;
         
-        p {
+        p,a {
+            margin-top: 16px;
+            text-decoration: none;
             font-weight: 300;
             cursor: pointer;
             padding: 6px;

@@ -21,4 +21,8 @@ export class HeroComponent implements OnInit {
     });
   }
 
+  scrollTo(id) {
+    document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+  }
+
 }

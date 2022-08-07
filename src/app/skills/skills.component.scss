@@ -2,11 +2,12 @@
     min-height: 100vh;
     background: rgb(2, 0, 36) !important;
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(89, 14, 32, 1) 100%, rgba(0, 212, 255, 1) 100%) !important;
+    scroll-margin: 32px;
 }
 
 .wrapper-2 {
     max-width: 1000px;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0 auto;
     border-bottom: 1px solid white;
 }
@@ -18,6 +19,7 @@
     padding-right: 8px;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 
     div {
@@ -58,6 +60,56 @@
 
         img {
             height: 40px;
+        }
+    }
+}
+
+@media screen and (max-width: 473px) {
+    .skills-container {
+
+    
+        div {
+            height: 100px;
+            width: 170px;
+    
+            p {
+
+            }
+    
+    
+            section {
+
+            }
+    
+            img {
+                height: 30px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .skills-container {
+
+    
+        div {
+            height: 70px;
+            width: 120px;
+    
+            p {
+                font-size: 13px;
+            }
+    
+    
+            section {
+                margin-top: -25px;
+                height: 45px;
+                width: 45px;
+            }
+    
+            img {
+                height: 20px;
+            }
         }
     }
 }

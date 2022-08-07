@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from "@angular/router";
+import { ViewportScroller } from '@angular/common';
 
 @Component({
   selector: 'app-header',
@@ -7,18 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  constructor(private scroller: ViewportScroller, private router: Router) { }
 
   ngOnInit(): void {
   }
 
-  scrollToPortfolio() {
-    let pageHeight = window.innerHeight;
-    window.scrollBy({
-      top: pageHeight*2,
-      left: 0,
-      behavior: 'smooth'
-    });
+  scroll(id) {
+    
+    document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
   }
 
+
 }
+
+

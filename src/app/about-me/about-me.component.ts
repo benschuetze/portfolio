@@ -21,7 +21,7 @@ export class AboutMeComponent implements OnInit {
       image: '../assets/img/search-line.png'
     },
     {
-      text: 'I started with learning the basics of HTML, CSS and Javascript and got to developing a Jump and Run Game and single page web apps with Angular.',
+      text: 'I started with learning the basics of HTML, CSS and Javascript and got to building a Jump and Run Game and single page web apps with Angular.',
       image: '../assets/img/flight-takeoff-line.png'
     },
   ];

@@ -1,8 +1,9 @@
 .wrapper {
-    height: 100vh;
+    min-height: 100vh;
     border-bottom: 1px solid white;
     max-width: 1000px;
     margin: 0 auto;
+    scroll-margin: 32px;
 }
 
 .quote  {
