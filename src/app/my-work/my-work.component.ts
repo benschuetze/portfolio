@@ -12,7 +12,7 @@ export class MyWorkComponent implements OnInit {
     {
       title: 'Portfolio',
       description: 'My personal Portfolio Site built with Angular',
-      image: 'assets/img/portfolio.jpg',
+      image: 'assets/img/Portfolio.jpg',
       category: 'angular',
       githubLink: 'https://github.com/benschuetze/portfolio',
       projectLink: '#'
@@ -20,7 +20,7 @@ export class MyWorkComponent implements OnInit {
     {
       title: 'El Pollo Loco',
       description: 'Jump and Run made with Javascript (OOP)',
-      image: 'assets/img/pollo-loco.jpg',
+      image: 'assets/img/Pollo-loco.jpg',
       category: 'javascript',
       githubLink: 'https://github.com/benschuetze/elpolloloco',
       projectLink: 'http://benjaminschuetze.de/pollo'
@@ -36,10 +36,10 @@ export class MyWorkComponent implements OnInit {
     {
       title: 'Join',
       description: 'Kanban built with Javascript as a group project',
-      image: 'assets/img/join.jpg',
+      image: 'assets/img/Join.jpg',
       category: 'javascript',
       githubLink: 'https://github.com/TobiasMatthies/Join',
-      projectLink: 'http://gruppe-208.developerakademie.net/Join2/pages/addATask.html'
+      projectLink: 'http://benjaminschuetze.de/join'
     },
     {
       title: 'KanBaneasy',
@@ -55,7 +55,7 @@ export class MyWorkComponent implements OnInit {
       image: 'assets/img/ringoffire.jpg',
       category: 'angular',
       githubLink: 'https://github.com/benschuetze/ringoffire',
-      projectLink: 'http://benjaminschuetze.de/ringoffire'
+      projectLink: 'https://ring-of-fire-d3a21.web.app'
     }
   ]; 
 
