@@ -48,3 +48,28 @@
         height: 26px;
     }
 }
+
+.img-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.snow-image {
+    width: 70vw;
+    height: 30vh;
+    max-width: 525px;
+    object-fit: cover;
+    border-radius: 16px;
+    object-position: 30% 70%;
+    margin: 0 auto;
+    align-self: center;
+}
+
+@media screen and (max-width: 460px) {
+    .snow-image {
+        height: 22vh;
+    }
+  }

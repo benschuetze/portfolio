@@ -23,7 +23,7 @@ export class MyWorkComponent implements OnInit {
       image: 'assets/img/pollo-loco.jpg',
       category: 'javascript',
       githubLink: 'https://github.com/benschuetze/elpolloloco',
-      projectLink: 'http://benjamin-schuetze.developerakademie.net/pollo/index.html'
+      projectLink: 'http://benjaminschuetze.de/pollo'
     },
     {
       title: 'Pokedex',
@@ -31,7 +31,7 @@ export class MyWorkComponent implements OnInit {
       image: 'assets/img/pokedex.jpg',
       category: 'javascript',
       githubLink: 'https://github.com/benschuetze/pokedex',
-      projectLink: 'http://benjamin-schuetze.developerakademie.net/pokedex/index.html'
+      projectLink: 'http://benjaminschuetze.de/pokedex'
     },
     {
       title: 'Join',
@@ -43,11 +43,19 @@ export class MyWorkComponent implements OnInit {
     },
     {
       title: 'KanBaneasy',
-      description: ' Simple Kanban built with Angular',
-      image: 'assets/img/join.jpg',
+      description: 'Simple Kanban built with Angular and Firebase',
+      image: 'assets/img/kanbaneasy.jpg',
       category: 'angular',
       githubLink: 'https://github.com/benschuetze/Kanbaneasy',
       projectLink: 'https://join-7cee9.web.app/'
+    }, 
+    {
+      title: 'Ring of Fire',
+      description: 'Web app version of the popular drinking game',
+      image: 'assets/img/ringoffire.jpg',
+      category: 'angular',
+      githubLink: 'https://github.com/benschuetze/ringoffire',
+      projectLink: 'http://benjaminschuetze.de/ringoffire'
     }
   ]; 
 

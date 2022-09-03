@@ -6,10 +6,12 @@
     padding-right: 8px;
     font-family: 'Montserrat', sans-serif !important;
     border-bottom: 1px solid white;
+    position: relative;
 
 
 
     p {
+        padding-top: 150px !important;
         font-size: 4em;
         font-weight: 550;
         letter-spacing: -1px;
@@ -53,7 +55,14 @@
     }
     }
 
-
+.hero-img {
+    position: absolute;
+    right: 12px;
+    top: 9.5%;
+    max-height: 350px;
+    border-radius: 24px;
+    // background-color:rgba(0,0,0,0.1);
+}
 
 
 
@@ -96,28 +105,35 @@
     }
 }
 
+@media screen and (max-width: 969px) {
+    .hero-container {    
+
+
+        p {
+            padding-top: 180px !important;
+            font-size: 3.5em;
+        }
+        }
+
+}
+
+@media screen and (max-width: 876px) {
+    .hero-img {
+        z-index: -1;
+    }
+}
+
 @media screen and (max-width: 501px) {
 
 
-    .hero-container {
-
-    
-    
-    
+    .hero-container {    
         p {
             font-size: 3em;
-            span {
-
-            }
-    
-            i {
-
-            }
         }
-    
-        button {
-
-
         }
+
+        .hero-img {
+            height: 230px !important;
+            top: 5%;
         }
 }
